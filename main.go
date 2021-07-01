@@ -18,4 +18,7 @@ func main() {
 	//declaracion tipo 3
 	texto3 := "gaaaaa3"
 	fmt.Println(texto3)
+	//declarar multiple variables y multiple asignacion
+	texto4, texto5 := "Prueba 4", "prueba 5"
+	fmt.Println(texto4, texto5)
 }
